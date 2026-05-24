@@ -171,12 +171,13 @@ with st.sidebar:
     st.markdown("### 📋 About")
     st.info("""
     This dashboard forecasts daily retail sales 90 days into the future using Facebook's Prophet ML model.
-    
+
     **Data:**
-    - Historical: 2 years of daily sales (2022-2024)
+    - Source: Rossmann Store Sales (Kaggle)
+    - Historical: 2.5 years of daily sales (2013-2015)
     - Forecast: 90 days ahead
     - Stores: 5 retail locations
-    
+
     **Features:**
     - Seasonality patterns
     - Promotional analysis
